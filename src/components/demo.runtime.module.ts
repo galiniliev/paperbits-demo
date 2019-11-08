@@ -9,6 +9,8 @@ import "@paperbits/core/collapsible-panel/runtime/bindingHandlers.toggleCollapsi
 import { CollapseToggle } from "@paperbits/core/collapsible-panel/collapseToggle";
 import { StaticUserService } from "./staticUserService";
 import { StaticRoleService } from "./staticRoleService";
+import { HelloWorld } from "./your-widget/runtime/react-widget";
+
 
 
 export class DemoRuntimeModule implements IInjectorModule {
@@ -23,5 +25,8 @@ export class DemoRuntimeModule implements IInjectorModule {
         injector.bindToCollection("autostart", VisibilityGuard);
         injector.bindSingleton("userService", StaticUserService);
         injector.bindSingleton("roleService", StaticRoleService);
+
+        // injector.bindSingleton("roleService", StaticRoleService);
+        const abc = new HelloWorld();
     }
 }
