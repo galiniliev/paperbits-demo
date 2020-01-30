@@ -35,4 +35,8 @@ export class ClickCounterViewModelBinder implements ViewModelBinder<ClickCounter
     public canHandleModel(model: ClickCounterModel): boolean {
         return model instanceof ClickCounterModel;
     }
+
+    public canHandleViewModel(viewModel: ClickCounterViewModel): boolean {
+        return viewModel instanceof ClickCounterViewModel;
+    }
 }
