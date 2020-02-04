@@ -35,7 +35,7 @@ injector.bindModule(new IntercomPublishModule());
 injector.bindModule(new GoogleTagManagerPublishModule());
 
 /* Initializing Demo module */
-const outputBasePath = "./dist/website";
+const outputBasePath = "app";
 const settingsPath = "./dist/publisher/config.json";
 const dataPath = "./dist/publisher/data/demo.json";
 injector.bindModule(new DemoPublishModule(dataPath, settingsPath, outputBasePath));
