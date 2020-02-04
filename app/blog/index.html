@@ -1,0 +1,905 @@
+<html lang="en"><head><script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','null');</script><link rel="shortcut icon" href="/images/favicon.ico">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Blog - Paperbits - Drag 'n' drop content builder for web apps</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="/styles/theme.css" rel="stylesheet" type="text/css">
+    <link href="/styles/customizations.css" rel="stylesheet" type="text/css">
+    <script src="/scripts/theme.js"></script>
+<meta name="description" content="Give your users a tool to create professional web pages, forms, email templates and more."><meta name="keywords" content="content builder, visual editor, drag &amp; drop, open source, javascript, content management"><meta name="author" content="Paperbits"><meta property="og:type" content="article"><meta property="og:site_name" content="Paperbits - Drag 'n' drop content builder for web apps"><meta property="og:title" content="Blog"><meta property="og:description" content="Give your users a tool to create professional web pages, forms, email templates and more."><meta property="og:url" content="/blog"><script>window.intercomSettings = { app_id: "null" };</script><script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/l560nd3j';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script></head>
+
+<body><noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=null" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><layout>
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><section data-bind="styled: styles, draggable: {}">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="fcsxsoywqa">.fcsxsoywqa {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  margin-left: auto;
+  grid-row-gap: undefined;
+  margin-right: auto;
+  margin-bottom: 10px;
+  grid-column-gap: undefined;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+@media(min-width:576px) {
+  .fcsxsoywqa-sm {
+    max-width: 540px;
+  }
+}
+@media(min-width:768px) {
+  .fcsxsoywqa-md {
+    max-width: 720px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media(min-width:992px) {
+  .fcsxsoywqa-lg {
+    max-width: 960px;
+  }
+}
+@media(min-width:1200px) {
+  .fcsxsoywqa-xl {
+    max-width: 1140px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+}</style><div data-bind="styled: styles" class="fcsxsoywqa fcsxsoywqa-md fcsxsoywqa-xl fcsxsoywqa-sm fcsxsoywqa-lg">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="srysusszxs">.srysusszxs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 2;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 1;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .srysusszxs-md {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+}</style><div data-bind="styled: $component.styles" class="srysusszxs srysusszxs-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><picture>
+    <!-- ko if: hyperlink -->
+    <a data-bind="hyperlink: hyperlink" href="/">
+        <img class="content picture picture-default" data-bind="styled: styles, attr: { src: sourceUrl, alt: caption }, size: { width: width, height: height }" src="/images/logo.svg" alt="Picture">
+    </a>
+    <!-- /ko -->
+    <!-- ko ifnot: hyperlink --><!-- /ko -->
+</picture><!-- /ko -->
+    
+    <!-- ko widget: widget --><div class="collapsible collapsible-panel">
+    <div class="backdrop"></div>
+    <style id="aidtrfdlci">.aidtrfdlci {
+  background-color: #fff;
+}
+@media(min-width:1200px) {
+  .aidtrfdlci-xl {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+  }
+}</style><div class="collapsible-content aidtrfdlci aidtrfdlci-xl" data-bind="styled: $component.styles">
+        <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+        <!-- ko widget: widget --><nav data-bind="secured: roles, styled: styles" class="menu menu-default">
+    <!--ko if: $component.nodes().length > 0 -->
+
+    <!-- ko if: $component.layout() === 'horizontal' -->
+    <div class="menu menu-horizontal" data-bind="template: { name: 'horizontalMenu', data: $component }">
+    <ul class="nav" data-bind="foreach: { data: $data.nodes, as: 'item' }">
+        <!-- ko if: item.nodes().length > 0 --><!-- /ko -->
+
+        <!-- ko ifnot: item.nodes().length > 0 -->
+        <li class="nav-item">
+            <a href="/wiki/getting-started" class="nav-link" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }">Get started</a>
+        </li>
+        <!-- /ko -->      
+    
+        <!-- ko if: item.nodes().length > 0 --><!-- /ko -->
+
+        <!-- ko ifnot: item.nodes().length > 0 -->
+        <li class="nav-item">
+            <a href="/features" class="nav-link" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }">Features</a>
+        </li>
+        <!-- /ko -->      
+    
+        <!-- ko if: item.nodes().length > 0 --><!-- /ko -->
+
+        <!-- ko ifnot: item.nodes().length > 0 -->
+        <li class="nav-item">
+            <a href="/blog" class="nav-link nav-link-active" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }">Blog</a>
+        </li>
+        <!-- /ko -->      
+    
+        <!-- ko if: item.nodes().length > 0 --><!-- /ko -->
+
+        <!-- ko ifnot: item.nodes().length > 0 -->
+        <li class="nav-item">
+            <a href="https://github.com/paperbits" class="nav-link" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }">Github</a>
+        </li>
+        <!-- /ko -->      
+    
+        <!-- ko if: item.nodes().length > 0 --><!-- /ko -->
+
+        <!-- ko ifnot: item.nodes().length > 0 -->
+        <li class="nav-item">
+            <a href="https://demo.paperbits.io" class="nav-link" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }">Demo</a>
+        </li>
+        <!-- /ko -->      
+    </ul>
+</div>
+    <!--/ko-->
+
+    <!-- ko if: $component.layout() === 'vertical' --><!--/ko-->
+
+    <!--/ko-->
+
+    <!--ko if: $component.nodes().length === 0 --><!--/ko-->
+</nav>
+
+<script id="horizontalMenu" type="text/html">
+    <ul class="nav" data-bind="foreach: { data: $data.nodes, as: 'item' }">
+        <!-- ko if: item.nodes().length > 0 -->
+        <li class="nav-item collapsible" data-bind="css: { 'expanded': expanded }">
+            <a href="#" class="nav-link" data-toggle="collapsible" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }"></a>
+            <!--ko if: item.nodes().length > 0 -->
+            <div class="dropdown collapsible-content">
+            <!-- ko template: { name: 'horizontalMenu', data: item } --><!-- /ko -->
+            </div>
+            <!-- /ko -->
+        </li>
+        <!-- /ko -->
+
+        <!-- ko ifnot: item.nodes().length > 0 -->
+        <li class="nav-item">
+            <a href="#" class="nav-link" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }"></a>
+        </li>
+        <!-- /ko -->      
+    </ul>
+</script>
+
+<script id="verticalMenu" type="text/html">
+    <ul class="nav" data-bind="foreach: { data: $data.nodes, as: 'item' }">
+        <!-- ko if: item.nodes().length > 0 -->
+        <li class="nav-item collapsible" data-bind="css: { 'expanded': expanded }">
+            <a href="#" class="nav-link" data-toggle="collapsible" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }"></a>
+            <!--ko if: item.nodes().length > 0 -->
+            <!-- ko template: { name: 'verticalMenu', data: item } --><!-- /ko -->
+            <!-- /ko -->
+        </li>
+        <!-- /ko -->
+
+        <!-- ko ifnot: item.nodes().length > 0 -->
+        <li class="nav-item">
+            <a href="#" class="nav-link" data-bind="text: item.label, attr: { href: item.url }, css: { 'nav-link-active': item.isActive }"></a>
+        </li>
+        <!-- /ko -->      
+    </ul>
+</script><!-- /ko -->
+        <!-- /ko -->
+
+        <button class="collapsible-panel-toggle" aria-label="Toggle" data-toggle="modal">
+            <i class="icon icon-simple-remove"></i>
+        </button>
+    </div>
+
+    <button class="collapsible-panel-toggle" aria-label="Toggle" data-toggle="modal">
+        <i class="icon icon-menu-8"></i>
+    </button>
+</div><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</section><!-- /ko -->
+    
+    <!-- ko widget: widget --><style id="iotmckcboe">@media(min-width:1200px) {
+  .iotmckcboe-xl {
+    flex-grow: 1;
+  }
+}</style><section data-bind="styled: styles, draggable: {}" class="iotmckcboe iotmckcboe-xl">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="nvguaoszai">.nvguaoszai {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  margin-left: auto;
+  grid-row-gap: undefined;
+  margin-right: auto;
+  margin-bottom: 10px;
+  grid-column-gap: undefined;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+@media(min-width:576px) {
+  .nvguaoszai-sm {
+    max-width: 540px;
+  }
+}
+@media(min-width:768px) {
+  .nvguaoszai-md {
+    max-width: 720px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media(min-width:992px) {
+  .nvguaoszai-lg {
+    max-width: 960px;
+  }
+}
+@media(min-width:1200px) {
+  .nvguaoszai-xl {
+    max-width: 1140px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+}</style><div data-bind="styled: styles" class="nvguaoszai nvguaoszai-md nvguaoszai-xl nvguaoszai-sm nvguaoszai-lg">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="uokmvcslft">.uokmvcslft {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 2;
+  padding-left: 5px;
+  align-content: flex-start;
+  padding-right: 5px;
+  grid-row-start: 1;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .uokmvcslft-md {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+}</style><div data-bind="styled: $component.styles" class="uokmvcslft uokmvcslft-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><main data-bind="draggable: {}">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><section data-bind="styled: styles, draggable: {}">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="lfruyxayfh">.lfruyxayfh {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  margin-left: auto;
+  grid-row-gap: undefined;
+  margin-right: auto;
+  margin-bottom: 10px;
+  grid-column-gap: undefined;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+}
+@media(min-width:576px) {
+  .lfruyxayfh-sm {
+    max-width: 540px;
+  }
+}
+@media(min-width:768px) {
+  .lfruyxayfh-md {
+    flex: 1;
+    width: 100%;
+    display: grid;
+    max-width: 720px;
+    margin-top: 15px;
+    grid-row-gap: undefined;
+    margin-bottom: 15px;
+    grid-column-gap: undefined;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+@media(min-width:992px) {
+  .lfruyxayfh-lg {
+    max-width: 960px;
+  }
+}
+@media(min-width:1200px) {
+  .lfruyxayfh-xl {
+    max-width: 1140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}</style><div data-bind="styled: styles" class="lfruyxayfh lfruyxayfh-md lfruyxayfh-xl lfruyxayfh-sm lfruyxayfh-lg">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="hhumlavrsc">.hhumlavrsc {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 2;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 1;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .hhumlavrsc-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    grid-row-end: 2;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    grid-row-start: 1;
+    padding-bottom: 15px;
+    grid-column-end: 2;
+    justify-content: center;
+    grid-column-start: 1;
+  }
+}</style><div data-bind="styled: $component.styles" class="hhumlavrsc hhumlavrsc-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><picture>
+    <!-- ko if: hyperlink --><!-- /ko -->
+    <!-- ko ifnot: hyperlink -->
+    <img class="content picture picture-vugi6" data-bind="styled: styles, attr: { src: sourceUrl, alt: caption }, size: { width: width, height: height }" src="/content/api-management.svg" alt="API Management">
+    <!-- /ko -->
+</picture><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    
+    <!-- ko widget: widget --><style id="xsdtpsedbn">.xsdtpsedbn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 3;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 2;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .xsdtpsedbn-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    grid-row-end: 2;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    grid-row-start: 1;
+    padding-bottom: 15px;
+    grid-column-end: 3;
+    justify-content: center;
+    grid-column-start: 2;
+  }
+}
+@media(min-width:1200px) {
+  .xsdtpsedbn-xl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+  }
+}</style><div data-bind="styled: $component.styles" class="xsdtpsedbn xsdtpsedbn-md xsdtpsedbn-xl">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><textblock data-bind="htmlEditor: { htmlEditor: htmlEditor, state: state, readonly: readonly }"><h2 id="8RY4X">Case study: Azure API Management</h2><p>In this article, we're going to look at a great example of how one of the large enterprise solutions - Microsoft Azure API Management - benefits from adopting Paperbits and addresses a number of  key requirements...&nbsp;<a href="/blog/azure-api-management" target="_self">Read article</a></p></textblock><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</section><!-- /ko -->
+    
+    <!-- ko widget: widget --><section data-bind="styled: styles, draggable: {}">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="jwugyawfwl">.jwugyawfwl {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  margin-left: auto;
+  grid-row-gap: undefined;
+  margin-right: auto;
+  margin-bottom: 10px;
+  grid-column-gap: undefined;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+}
+@media(min-width:576px) {
+  .jwugyawfwl-sm {
+    max-width: 540px;
+  }
+}
+@media(min-width:768px) {
+  .jwugyawfwl-md {
+    flex: 1;
+    width: 100%;
+    display: grid;
+    max-width: 720px;
+    margin-top: 15px;
+    grid-row-gap: undefined;
+    margin-bottom: 15px;
+    grid-column-gap: undefined;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+@media(min-width:992px) {
+  .jwugyawfwl-lg {
+    max-width: 960px;
+  }
+}
+@media(min-width:1200px) {
+  .jwugyawfwl-xl {
+    max-width: 1140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}</style><div data-bind="styled: styles" class="jwugyawfwl jwugyawfwl-md jwugyawfwl-xl jwugyawfwl-sm jwugyawfwl-lg">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="dscoxvjkpr">.dscoxvjkpr {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 2;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 1;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .dscoxvjkpr-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    grid-row-end: 2;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    grid-row-start: 1;
+    padding-bottom: 15px;
+    grid-column-end: 2;
+    justify-content: center;
+    grid-column-start: 1;
+  }
+}</style><div data-bind="styled: $component.styles" class="dscoxvjkpr dscoxvjkpr-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><picture>
+    <!-- ko if: hyperlink --><!-- /ko -->
+    <!-- ko ifnot: hyperlink -->
+    <img class="content picture picture-vugi6" data-bind="styled: styles, attr: { src: sourceUrl, alt: caption }, size: { width: width, height: height }" src="/content/mobile-form.jpg" alt="Picture">
+    <!-- /ko -->
+</picture><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    
+    <!-- ko widget: widget --><style id="ksckzgxvvs">.ksckzgxvvs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 3;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 2;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .ksckzgxvvs-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    grid-row-end: 2;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    grid-row-start: 1;
+    padding-bottom: 15px;
+    grid-column-end: 3;
+    justify-content: center;
+    grid-column-start: 2;
+  }
+}</style><div data-bind="styled: $component.styles" class="ksckzgxvvs ksckzgxvvs-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><textblock data-bind="htmlEditor: { htmlEditor: htmlEditor, state: state, readonly: readonly }"><h2 id="yH4Dk">So, you need a form?</h2><p>Just a few days after launching Paperbits Early Preview campaign it became clear that everybody needs forms! Every second question we got from our visitors and users was about them. Of course, scenarios like user registration, product checkout, feedback collection and many others - all of it requires a form and providing the ability to build one is undoubtedly an essential part of a content builder... <a href="/blog/so-you-need-a-form" target="_self">Read article</a></p></textblock><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</section><!-- /ko -->
+    
+    <!-- ko widget: widget --><section data-bind="styled: styles, draggable: {}">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="quaklwzigg">.quaklwzigg {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  margin-left: auto;
+  grid-row-gap: undefined;
+  margin-right: auto;
+  margin-bottom: 10px;
+  grid-column-gap: undefined;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+}
+@media(min-width:576px) {
+  .quaklwzigg-sm {
+    max-width: 540px;
+  }
+}
+@media(min-width:768px) {
+  .quaklwzigg-md {
+    flex: 1;
+    width: 100%;
+    display: grid;
+    max-width: 720px;
+    margin-top: 15px;
+    grid-row-gap: undefined;
+    margin-bottom: 15px;
+    grid-column-gap: undefined;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+@media(min-width:992px) {
+  .quaklwzigg-lg {
+    max-width: 960px;
+  }
+}
+@media(min-width:1200px) {
+  .quaklwzigg-xl {
+    max-width: 1140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}</style><div data-bind="styled: styles" class="quaklwzigg quaklwzigg-md quaklwzigg-xl quaklwzigg-sm quaklwzigg-lg">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="hhtvzjuogu">.hhtvzjuogu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 2;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 1;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .hhtvzjuogu-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    grid-row-end: 2;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    grid-row-start: 1;
+    padding-bottom: 15px;
+    grid-column-end: 2;
+    justify-content: center;
+    grid-column-start: 1;
+  }
+}</style><div data-bind="styled: $component.styles" class="hhtvzjuogu hhtvzjuogu-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><picture>
+    <!-- ko if: hyperlink --><!-- /ko -->
+    <!-- ko ifnot: hyperlink -->
+    <img class="content picture picture-vugi6" data-bind="styled: styles, attr: { src: sourceUrl, alt: caption }, size: { width: width, height: height }" src="/content/business-meeting.jpg" alt="Picture">
+    <!-- /ko -->
+</picture><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    
+    <!-- ko widget: widget --><style id="ptagtjhold">.ptagtjhold {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 3;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 2;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .ptagtjhold-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    grid-row-end: 2;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    grid-row-start: 1;
+    padding-bottom: 15px;
+    grid-column-end: 3;
+    justify-content: center;
+    grid-column-start: 2;
+  }
+}</style><div data-bind="styled: $component.styles" class="ptagtjhold ptagtjhold-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><textblock data-bind="htmlEditor: { htmlEditor: htmlEditor, state: state, readonly: readonly }"><h2 id="8BMI1">Key concepts</h2><p>Here at Paperbits, we believe that in the process of creating and publishing web content the participants should play the role they are good at: authors - write, designers - take care of look and feel and developers implement the behavior... <a href="/blog/key-concepts" target="_self">Read article</a></p></textblock><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</section><!-- /ko -->
+    
+    <!-- ko widget: widget --><section data-bind="styled: styles, draggable: {}">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="dtclnrjoff">.dtclnrjoff {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  margin-left: auto;
+  grid-row-gap: undefined;
+  margin-right: auto;
+  margin-bottom: 10px;
+  grid-column-gap: undefined;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+}
+@media(min-width:576px) {
+  .dtclnrjoff-sm {
+    max-width: 540px;
+  }
+}
+@media(min-width:768px) {
+  .dtclnrjoff-md {
+    flex: 1;
+    width: 100%;
+    display: grid;
+    max-width: 720px;
+    margin-top: 15px;
+    grid-row-gap: undefined;
+    margin-bottom: 15px;
+    grid-column-gap: undefined;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+@media(min-width:992px) {
+  .dtclnrjoff-lg {
+    max-width: 960px;
+  }
+}
+@media(min-width:1200px) {
+  .dtclnrjoff-xl {
+    max-width: 1140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}</style><div data-bind="styled: styles" class="dtclnrjoff dtclnrjoff-md dtclnrjoff-xl dtclnrjoff-sm dtclnrjoff-lg">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="krbkebxcvu">.krbkebxcvu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 2;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 1;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .krbkebxcvu-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    grid-row-end: 2;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    grid-row-start: 1;
+    padding-bottom: 15px;
+    grid-column-end: 2;
+    justify-content: center;
+    grid-column-start: 1;
+  }
+}</style><div data-bind="styled: $component.styles" class="krbkebxcvu krbkebxcvu-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><picture>
+    <!-- ko if: hyperlink --><!-- /ko -->
+    <!-- ko ifnot: hyperlink -->
+    <img class="content picture picture-vugi6" data-bind="styled: styles, attr: { src: sourceUrl, alt: caption }, size: { width: width, height: height }" src="/content/achievement-3612401_1920.jpg" alt="Picture">
+    <!-- /ko -->
+</picture><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    
+    <!-- ko widget: widget --><style id="dzvmzperrv">.dzvmzperrv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 3;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 2;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .dzvmzperrv-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 15px;
+    grid-row-end: 2;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    grid-row-start: 1;
+    padding-bottom: 15px;
+    grid-column-end: 3;
+    justify-content: center;
+    grid-column-start: 2;
+  }
+}</style><div data-bind="styled: $component.styles" class="dzvmzperrv dzvmzperrv-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><textblock data-bind="htmlEditor: { htmlEditor: htmlEditor, state: state, readonly: readonly }"><h2 id="KN6mu">Meet Paperbits!</h2><p>These days we see many products (to name a few: Wordpress, MailChimp, Constant Contact, Unbounce, Remote, etc.) that include rich content authoring as one of their core features. Usually, their functionality incorporates simple drag &amp; drop interface, a library of design blocks and a number of themes... <a href="/blog/meet-paperbits" target="_self">Read article</a></p></textblock><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</section><!-- /ko -->
+    <!-- /ko -->
+</main><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</section><!-- /ko -->
+    
+    <!-- ko widget: widget --><section data-bind="styled: styles, draggable: {}">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="trxukwfbaq">.trxukwfbaq {
+  flex: 1;
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  margin-left: auto;
+  grid-row-gap: undefined;
+  margin-right: auto;
+  margin-bottom: 10px;
+  grid-column-gap: undefined;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+@media(min-width:576px) {
+  .trxukwfbaq-sm {
+    max-width: 540px;
+  }
+}
+@media(min-width:768px) {
+  .trxukwfbaq-md {
+    max-width: 720px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media(min-width:992px) {
+  .trxukwfbaq-lg {
+    max-width: 960px;
+  }
+}
+@media(min-width:1200px) {
+  .trxukwfbaq-xl {
+    max-width: 1140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}</style><div data-bind="styled: styles" class="trxukwfbaq trxukwfbaq-md trxukwfbaq-xl trxukwfbaq-sm trxukwfbaq-lg">
+    <!-- ko foreach: { data: widgets, as: 'widget' } -->
+    <!-- ko widget: widget --><style id="lyrlmksqle">.lyrlmksqle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+  grid-row-end: 2;
+  padding-left: 5px;
+  align-content: center;
+  padding-right: 5px;
+  grid-row-start: 1;
+  padding-bottom: 5px;
+  grid-column-end: 2;
+  justify-content: center;
+  grid-column-start: 1;
+}
+@media(min-width:768px) {
+  .lyrlmksqle-md {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+}</style><div data-bind="styled: $component.styles" class="lyrlmksqle lyrlmksqle-md">
+    <!-- ko foreach: { data: widgets, as: 'widget'  } -->
+    <!-- ko widget: widget --><textblock data-bind="htmlEditor: { htmlEditor: htmlEditor, state: state, readonly: readonly }"><p class="text text-align-center">Copyright © 2020 Paperbits LLC. All rights reserved.</p></textblock><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</div><!-- /ko -->
+    <!-- /ko -->
+</section><!-- /ko -->
+    <!-- /ko -->
+</layout></body></html>
